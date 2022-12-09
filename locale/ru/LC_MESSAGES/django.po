@@ -1,0 +1,374 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-02 07:06+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: .\asstruz\settings.py:121
+msgid "Uzb"
+msgstr "Узб"
+
+#: .\asstruz\settings.py:122
+msgid "Eng"
+msgstr "Анг"
+
+#: .\asstruz\settings.py:123
+msgid "Rus"
+msgstr "Рус"
+
+#: .\blog\models.py:17
+msgid "title"
+msgstr "Название"
+
+#: .\blog\models.py:18
+msgid "slug"
+msgstr "Цилка"
+
+#: .\blog\models.py:24
+msgid "content"
+msgstr "Текст"
+
+#: .\templates\post\base.html:17
+msgid "SPACECOM LOYIHASINI O`ZBEKISTONDAGI HAMKORLARI"
+msgstr "ПАРТНЕРЫ ПРОЕКТА SPACECOM В УЗБЕКИСТАНЕ"
+
+#: .\templates\post\base.html:54
+msgid "Dush-Shan"
+msgstr "Пн-Сб"
+
+#: .\templates\post\base.html:80 .\templates\post\base_post.html:79
+msgid "Bosh sahifa"
+msgstr "Главная страница"
+
+#: .\templates\post\base.html:85 .\templates\post\base_post.html:84
+#: .\templates\post\index.html:45
+msgid "Yangiliklar"
+msgstr "Новости"
+
+#: .\templates\post\base.html:88 .\templates\post\base.html:347
+#: .\templates\post\base_post.html:87 .\templates\post\base_post.html:381
+msgid "Biz haqimizda"
+msgstr "О нас"
+
+#: .\templates\post\base.html:94 .\templates\post\base_post.html:90
+#: .\templates\post\index.html:75
+msgid "Bog`lanish"
+msgstr "Контакт"
+
+#: .\templates\post\base.html:324 .\templates\post\base_post.html:358
+msgid ""
+"Ushbu loyiha Yevropa Komissiyasi ko`magida moliyalashtirildi. Bu veb-sayt "
+"faqat mualliflarning fikrlarini aks ettiradi va Komissiya undagi "
+"ma`lumotlardan foydalanish uchun javobgarlikni o`z zimmasiga olmaydi."
+msgstr ""
+"Этот проект финансировался при поддержке Европейской комиссии. Этот "
+"сайотражает в нем только мнения авторов и Комиссиине берет на себя "
+"ответственность за использование информации."
+
+#: .\templates\post\base.html:333 .\templates\post\base_post.html:367
+msgid "Foydali havolalar"
+msgstr "Полезные цилки"
+
+#: .\templates\post\base.html:335 .\templates\post\base_post.html:369
+msgid "Loyiha hujjatlari"
+msgstr "Полученные результаты "
+
+#: .\templates\post\base.html:336 .\templates\post\base_post.html:370
+msgid "Loyiha boshqaruvi"
+msgstr "Управление проектом"
+
+#: .\templates\post\base.html:345 .\templates\post\base_post.html:379
+msgid "Sahifalar"
+msgstr "Страницы"
+
+#: .\templates\post\base.html:348 .\templates\post\base_post.html:382
+msgid "Ish faoliyatimiz"
+msgstr "Наша работа"
+
+#: .\templates\post\base.html:349 .\templates\post\base_post.html:383
+msgid "Qo`lab-quvvatlash"
+msgstr "Поддерживать"
+
+#: .\templates\post\base.html:350 .\templates\post\base_post.html:384
+msgid "Biz bilan aloqa"
+msgstr "Обратная связ"
+
+#: .\templates\post\base.html:351 .\templates\post\base_post.html:385
+msgid "Maxfiylik siyosati"
+msgstr "Конфиденциальност"
+
+#: .\templates\post\base.html:355 .\templates\post\base_post.html:389
+msgid "Tezkor bog`lanish"
+msgstr "Обратная связь"
+
+#: .\templates\post\base.html:361 .\templates\post\base_post.html:395
+#: .\templates\post\index.html:220
+msgid "Full Name"
+msgstr "Полное имя"
+
+#: .\templates\post\base.html:366 .\templates\post\base_post.html:400
+#: .\templates\post\index.html:225
+msgid "E-Mail Address"
+msgstr "Адрес электронной почты"
+
+#: .\templates\post\base.html:371 .\templates\post\base_post.html:405
+#: .\templates\post\index.html:235
+msgid "Your Message"
+msgstr "Ваше сообщение"
+
+#: .\templates\post\base.html:376 .\templates\post\base_post.html:410
+msgid "Xabar jo`natish"
+msgstr "Отправить сообщение"
+
+#: .\templates\post\index.html:16
+msgid "Erasmus+ SPACECOM loyihasi"
+msgstr "Erasmus+ SPACECOM  проект"
+
+#: .\templates\post\index.html:17
+msgid ""
+"\"Suni`y yo`ldosh texnologiyasi, kosmik texnologiyalar va aloqa tizimlari "
+"bo`yicha\""
+msgstr ""
+"\"Спутниковые технологии, космические технологии и системы связи в рамках\""
+
+#: .\templates\post\index.html:17
+msgid "magistrlik dasturi doirasida"
+msgstr "магистерской программы"
+
+#: .\templates\post\index.html:18
+msgid ""
+"\"Metrologiya texnik jihatdan tartibga solish standartlashtirish va "
+"sertifikatlashtirish\""
+msgstr ""
+"\"Метрология – это техническое регулирование, стандартизация и сертификация\""
+
+#: .\templates\post\index.html:18
+msgid "kafedrasida olib borilayotgan ishlar"
+msgstr "работы, проводимые в кафедрии"
+
+#: .\templates\post\index.html:29
+msgid "ERASMUS+ OLIY TA`LIM SOHASIDA"
+msgstr "ERASMUS+ ПОВЫШЕНИЕ КОМПЕТЕНЦИЙ "
+
+#: .\templates\post\index.html:29
+msgid "SALOHIYATNI OSHIRISH"
+msgstr "В ОБЛАСТИ ВЫСШЕГО ОБРАЗОВАНИЯ"
+
+#: .\templates\post\index.html:30
+msgid ""
+"Kosmik tizimlar va aloqa texnologiyalari sohasidagi yangi o`quv dasturi "
+"SPACE.COM-609715-EPP-1-2019-1-UZ-EPPKA2-JP."
+msgstr ""
+"Новый учебный план в области космических систем и технологий связиSPACE. "
+"COM-609715-EPP-1-2019-1-UZ-EPPKA2-JP."
+
+#: .\templates\post\index.html:41
+msgid "MAVJUD MAGISTRLIK    PROGRAMMASI"
+msgstr "ДОСТУПНЫ МАСТЕРСКИЕ  ПРОГРАММА"
+
+#: .\templates\post\index.html:43
+msgid ""
+"Hozirgi kunda Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari "
+"universitetida Sun`iy yo`ldoshli aloqa tizimlari magistraturasiga va Mirzo "
+"Ulug’bek nomidagi Toshkent davlat texnika universitetining  Avia-kosmik "
+"vositalar bilan tabiiy resurslarni tadqiq qilish  magistraturasiga hujjat "
+"topshirish imkoniyati mavjud"
+msgstr ""
+"Сегодня Ташкент имени Мухаммада ал-ХоразмиСпутниковые системы связи» в "
+"Университете информационных технологийв магистратуру и Ташкентский "
+"государственный технический университет имени Мирзо УлугбекаИсследование "
+"природных ресурсов аэрокосмическими средствами университетаМожно поступить в "
+"магистратуру по специальности изготовление"
+
+#: .\templates\post\index.html:54
+msgid ""
+"KOSMIK TIZIMLAR VA ALOQA MUHANDISLIGI BO`YICHA  &amp; YANGI O`QUV DASTURI"
+msgstr "НОВАЯ УЧЕБНАЯ ПРОГРАММА ПО КОСМИЧЕСКИМ СИСТЕМАМ И СВЯЗИ"
+
+#: .\templates\post\index.html:55
+msgid ""
+"SPACE.COM - Yevropa Ittifoqi (YI) oliy ta`lim sohasida salohiyatni oshirish "
+"maqsadida 2019-yilda ishga tushirilgan, Erasmus+ bilan birgalikda "
+" moliyalashtiriladigan 3 yillik davlatlararo qoshma loyiha."
+msgstr ""
+"SPACE.COM - Наращивание потенциала высшего образования в Европейском Союзе "
+" (ЕС) запущен в 2019 году совместно с Erasmus+ с целью  финансируется 3-"
+" летний межгосударственный совместный проект."
+
+#: .\templates\post\index.html:56 .\templates\post\index.html:99
+msgid "Batafsil"
+msgstr "Читать далее"
+
+#: .\templates\post\index.html:71
+msgid "Loyiha doirasida takliflaringiz bormi ?"
+msgstr "У вас есть предложения по проекту ?"
+
+#: .\templates\post\index.html:72
+msgid "Unda bizga aloqaga chiqing. Sizning fikringiz biz uchun muhim."
+msgstr "Тогда свяжитесь с нами. Ваше мнение важно для нас."
+
+#: .\templates\post\index.html:86
+msgid "So`ngi yangiliklar va "
+msgstr "Последние новости и "
+
+#: .\templates\post\index.html:86
+msgid "maqolalar"
+msgstr " статьи "
+
+#: .\templates\post\index.html:117
+msgid "Ushbu loyiha Yevropa Komissiyasi ko`magida moliyalashtirildi."
+msgstr "Этот проект финансировался при поддержке Европейской комиссии."
+
+#: .\templates\post\index.html:118
+msgid "Loyihaning kutilayotgan asosiy  "
+msgstr "Ожидаемая основная часть проекта "
+
+#: .\templates\post\index.html:118
+msgid "natijalari"
+msgstr " результаты "
+
+#: .\templates\post\index.html:121
+msgid ""
+"Kosmik muhandislik va texnologiya bo`yicha magistrlik dasturini ochish/"
+"yangilash;"
+msgstr ""
+"Открыта магистерская программа по космической технике и технологиям "
+"обновлять;"
+
+#: .\templates\post\index.html:122
+msgid ""
+"mavjudni modernizatsiya qilish va kosmik va kommunikatsiya injeneriyasi "
+"bilan bog`liq yangi kurslarni ishlab chiqish;"
+msgstr ""
+"существующая модернизация и космическая и коммуникационная техника "
+"разработка новых курсов, связанных;"
+
+#: .\templates\post\index.html:123
+msgid ""
+"kosmik injeneriya va texnologiya bo`yicha yangi o`quv-ilmiy tadqiqot "
+"laboratoriyasini tashkil etish;"
+msgstr ""
+"новые учебные и научные исследования по космической технике и "
+"технологияморганизация лаборатории;"
+
+#: .\templates\post\index.html:124
+msgid "hamkor universitetlar kadrlarini qayta tayyorlash;"
+msgstr "переподготовка кадров вузов-партнеров;"
+
+#: .\templates\post\index.html:125
+msgid "yangi qo`llanma va o`quv-uslubiy qo`llanmalar ishlab chiqish."
+msgstr "разработка новых учебных пособий и учебно-методических пособий."
+
+#: .\templates\post\index.html:136
+msgid "Qatnashchilar soni"
+msgstr "Число участников"
+
+#: .\templates\post\index.html:142
+msgid "Qoyilmaqom izohlar"
+msgstr "Хорошие комментарии"
+
+#: .\templates\post\index.html:148
+msgid "Amalga oshirilgan ishlar"
+msgstr "Предпринятые действия"
+
+#: .\templates\post\index.html:154
+msgid "Qo`lga kiritilgan yutuqlar"
+msgstr "Достижения"
+
+#: .\templates\post\index.html:177
+msgid "KOSMIK TIZIMLAR VA ALOQA MUHANDISLIGI BO`YICHA YANGI O`QUV DASTURI"
+msgstr "НОВАЯ УЧЕБНАЯ ПРОГРАММА ПО КОСМИЧЕСКИМ СИСТЕМАМ И СВЯЗИ"
+
+#: .\templates\post\index.html:179
+msgid ""
+"SPACE.COM - Yevropa Ittifoqi (YI) oliy ta`lim sohasida salohiyatni oshirish "
+"maqsadida 2019-yilda ishga tushirilgan, Erasmus+ tbilan birgalikda "
+"moliyalashtiriladigan 3 yillik davlatlararo qoshma loyiha."
+msgstr ""
+"SPACE.COM - запущен в 2019 году для увеличения потенциала в сфере высшего "
+"образования в Европейском Союзе (ЕС)  вместе с Эразмус+Erasmus+ "
+"финансируется 3-летний межгосударственный совместный проект."
+
+#: .\templates\post\index.html:184
+msgid "BIZNING MAQSAD"
+msgstr "НАША ЦЕЛЬ"
+
+#: .\templates\post\index.html:185
+msgid ""
+"O`zbekiston kosmik tizimlari muhandisligi barqarorligini ta`minlash uchun "
+"talabalarga yo`naltirilgan \"SPACE.COM\" yangi magistratura dasturini ishlab "
+"chiqish, joriy etish va akkreditatsiyasini qo1llab-quvvatlash."
+msgstr ""
+"Обеспечение устойчивости космических систем Узбекистана Разработка новая "
+"магистерская программа, ориентированная на студентов \"SPACE.COM\"внедрение "
+"и поддержка аккредитации."
+
+#: .\templates\post\index.html:187
+msgid "BIZ KELAJAKNI QURAMIZ"
+msgstr "МЫ СТРОИМ БУДУЩЕЕ"
+
+#: .\templates\post\index.html:188
+msgid ""
+"Loyiha Yevropa Ittifoqining eng yaxshi amaliyoti va Boloniya jarayoniga "
+"muvofiq, mehnat bozoriga mos yuqori malakali mutaxassislarni o`qitish uchun "
+"innovatsion ta`lim va o`quv muhitini yaratadi."
+msgstr ""
+"Проект основан на передовом опыте ЕС и Болонском процессе для подготовки "
+"высококвалифицированных специалистов, пригодных для рынка труда создает "
+"инновационную среду для образования и обучения."
+
+#: .\templates\post\index.html:210
+msgid "Mavzu yuzasidan"
+msgstr "По теме"
+
+#: .\templates\post\index.html:210
+msgid "fikringizni qoldiring"
+msgstr "оставить свое комментари"
+
+#: .\templates\post\index.html:211
+msgid "Qiziqtirgan savollaringizni qoldiring biz sizga tez orada javob beramiz"
+msgstr "Оставляйте свои вопросы и мы ответим вам в ближайшее время"
+
+#: .\templates\post\index.html:230
+msgid "Subject"
+msgstr "Тема"
+
+#: .\templates\post\index.html:240
+msgid "Xabar yuborish"
+msgstr "Отправить сообщение"
+
+#: .\templates\post\post.html:12
+msgid "So`ngi yangiliklar va  maqolalar"
+msgstr "Самые свежие новости и статьи"
+
+#: .\templates\post\post_detail.html:31
+msgid "ta izoh qoldirilgan"
+msgstr "комментарий оставил"
+
+#: .\templates\post\post_detail.html:33
+msgid "Izoh qoldirilmagan"
+msgstr "Комментариев нет"
+
+#: .\templates\post\post_detail.html:59
+msgid "Izohingiz tekshirilib tasdiqlanishi kutilmoqda"
+msgstr "Ваш комментарий ожидает модерации"
+
+#: .\templates\post\post_detail.html:66
+msgid "Yuborish"
+msgstr "Отправит"

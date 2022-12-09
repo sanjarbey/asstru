@@ -1,0 +1,306 @@
+{% extends "post/base.html" %}
+{% load i18n static %}
+
+{% block content %}
+
+
+    <!-- Page Content -->
+    <!-- Banner Starts Here -->
+    <div class="main-banner header-text" id="top">
+        <div class="Modern-Slider">
+          
+          <!-- Item -->
+          <div class="item item-4">
+            <div class="img-fill">
+                <div class="text-content">
+                  <h4>{%  trans 'Erasmus+ SPACECOM loyihasi' %} </h4>
+                  <p style="font-size:20px;"><strong>{% trans '"Suni`y yo`ldosh texnologiyasi, kosmik texnologiyalar va aloqa tizimlari bo`yicha"'  %}</strong> {%  trans 'magistrlik dasturi doirasida' %}
+                  <strong><i> {% trans '"Metrologiya texnik jihatdan tartibga solish standartlashtirish va sertifikatlashtirish"' %}</i></strong> {%  trans 'kafedrasida olib borilayotgan ishlar' %}</p>
+                  <!--<a href="#result" class="filled-button">Natjilalar</a>-->
+                </div>
+            </div>
+          </div>
+          
+          
+          <!-- Item -->
+          <div class="item item-1">
+            <div class="img-fill">
+                <div class="text-content">
+                  <h4>{% trans 'ERASMUS+ OLIY TA`LIM SOHASIDA' %} <br>{% trans 'SALOHIYATNI OSHIRISH' %}</h4>
+                  <p>{% trans 'Kosmik tizimlar va aloqa texnologiyalari sohasidagi yangi o`quv dasturi SPACE.COM-609715-EPP-1-2019-1-UZ-EPPKA2-JP.' %}</p>
+                  <!--<a href="#result" class="filled-button">Natjilalar</a>-->
+                </div>
+            </div>
+          </div>
+          <!-- // Item -->
+
+          <!-- Item -->
+          <div class="item item-2">
+            <div class="img-fill">
+                <div class="text-content">
+                  <h4>{% trans 'MAVJUD MAGISTRLIK    PROGRAMMASI' %} <br></h4>
+                  <p>
+                   {% trans 'Hozirgi kunda Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universitetida Sun`iy yo`ldoshli aloqa tizimlari magistraturasiga va Mirzo Ulug’bek nomidagi Toshkent davlat texnika universitetining  Avia-kosmik vositalar bilan tabiiy resurslarni tadqiq qilish  magistraturasiga hujjat topshirish imkoniyati mavjud' %}
+                  </p>
+                  <a href="#news" class="filled-button">{% trans 'Yangiliklar' %}</a>
+                </div>
+            </div>
+          </div>
+          <!-- // Item -->
+          <!-- Item -->
+          <div class="item item-3">
+            <div class="img-fill">
+                <div class="text-content">
+                  <h4>{% trans 'KOSMIK TIZIMLAR VA ALOQA MUHANDISLIGI BO`YICHA  &amp; YANGI O`QUV DASTURI' %}</h4>
+                  <p>{% trans 'SPACE.COM - Yevropa Ittifoqi (YI) oliy ta`lim sohasida salohiyatni oshirish maqsadida 2019-yilda ishga tushirilgan, Erasmus+ bilan birgalikda moliyalashtiriladigan 3 yillik davlatlararo qoshma loyiha.' %}</p>
+                  <a href="#about" class="filled-button">{% trans 'Batafsil'%}</a>
+                </div>
+            </div>
+          </div>
+          <!-- // Item -->
+        </div>
+    </div>
+    <!-- Banner Ends Here -->
+
+
+
+    <div class="request-form">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <h4>{% trans 'Loyiha doirasida takliflaringiz bormi ?' %}</h4>
+            <span>{% trans 'Unda bizga aloqaga chiqing. Sizning fikringiz biz uchun muhim.' %}</span>
+          </div>
+          <div class="col-md-4">
+            <a href="#contactus" class="border-button">{% trans 'Bog`lanish' %}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="services" id="news">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h2><a href="{% url 'posts' %}" style="color: black;">{% trans 'So`ngi yangiliklar va '%}<em> {% trans 'maqolalar' %} </em></a></h2>
+              <span></span>
+            </div>
+          </div>
+
+            {% for new in posts %}
+            <div class="col-md-4">
+                <div class="service-item">
+                    <img src="/media/{{ new.image }}" alt="">
+                        <div class="down-content">
+                            <h4 style="color: #343a40!important; text-align: justify-all"><a href="{% url 'post_detail' new.slug %}">{{ new.title}}</a></h4>
+                        <p  class="text-justify">{{ new.content|safe|truncatewords:20 }}</p>
+{#                        <a href="#" class="filled-button">Batafsil</a>#}
+                      <a href="{% url 'post_detail' new.slug %}" class="filled-button">{% trans 'Batafsil'%}</a>
+                    </div>
+                </div>
+          </div>
+          {% endfor %}
+
+
+
+
+        </div>
+      </div>
+    </div>
+
+    <div class="fun-facts">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="left-content">
+              <span>{% trans 'Ushbu loyiha Yevropa Komissiyasi ko`magida moliyalashtirildi.'%}</span>
+              <h2>{% trans 'Loyihaning kutilayotgan asosiy  '%}<em>{% trans 'natijalari'%}</em></h2>
+              <p>
+                <ul>
+                   <li>{% trans 'Kosmik muhandislik va texnologiya bo`yicha magistrlik dasturini ochish/yangilash;'%}</li>
+                   <li>{% trans 'mavjudni modernizatsiya qilish va kosmik va kommunikatsiya injeneriyasi bilan bog`liq yangi kurslarni ishlab chiqish;'%}</li>
+                  <li>{% trans 'kosmik injeneriya va texnologiya bo`yicha yangi o`quv-ilmiy tadqiqot laboratoriyasini tashkil etish;'%}</li>
+                  <li>{% trans 'hamkor universitetlar kadrlarini qayta tayyorlash;'%}</li>
+                  <li>{% trans 'yangi qo`llanma va o`quv-uslubiy qo`llanmalar ishlab chiqish.'%}</li>
+                </ul>
+              </p>
+{#              <a href="#" class="filled-button">Batafsil</a>#}
+            </div>
+          </div>
+          <div class="col-md-6 align-self-center">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="count-area-content">
+                  <div class="count-digit">945</div>
+                  <div class="count-title">{% trans 'Qatnashchilar soni'%}</div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="count-area-content">
+                  <div class="count-digit">1280</div>
+                  <div class="count-title">{% trans 'Qoyilmaqom izohlar'%}</div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="count-area-content">
+                  <div class="count-digit">578</div>
+                  <div class="count-title">{% trans 'Amalga oshirilgan ishlar'%}</div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="count-area-content">
+                  <div class="count-digit">26</div>
+                  <div class="count-title">{% trans 'Qo`lga kiritilgan yutuqlar'%}</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="more-info" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="more-info-content">
+              <div class="row">
+                <div class="col-md-6 m-8">
+                  <div class="left-image">
+                    <img src="{% static 'images/kosmosback.jpg' %}" alt="">
+                  </div>
+                </div>
+                <div class="col-md-6 align-self-center">
+                  <div class="right-content">
+                    <span></span>
+                    <h5>{% trans 'KOSMIK TIZIMLAR VA ALOQA MUHANDISLIGI BO`YICHA YANGI O`QUV DASTURI'%} </h5>
+
+                      {% trans 'SPACE.COM - Yevropa Ittifoqi (YI) oliy ta`lim sohasida salohiyatni oshirish maqsadida 2019-yilda ishga tushirilgan, Erasmus+ tbilan birgalikda moliyalashtiriladigan 3 yillik davlatlararo qoshma loyiha.'%}
+                    </div>
+
+                      <div class="row" style="font-size: 14px; text-align: left;">
+                        <div class="col-md-6 align-self-justfiy">
+                          <em> <b>{% trans 'BIZNING MAQSAD'%}</b>&nbsp;&nbsp;&nbsp;&nbsp;</em>
+                           {% trans 'O`zbekiston kosmik tizimlari muhandisligi barqarorligini ta`minlash uchun talabalarga yo`naltirilgan "SPACE.COM" yangi magistratura dasturini ishlab chiqish, joriy etish va akkreditatsiyasini qo1llab-quvvatlash.'%}</div>
+                        <div class="col-md-6 align-self-justfiy">
+                          <em><b>{% trans 'BIZ KELAJAKNI QURAMIZ'%}</b></em>
+                          {% trans 'Loyiha Yevropa Ittifoqining eng yaxshi amaliyoti va Boloniya jarayoniga muvofiq, mehnat bozoriga mos yuqori malakali mutaxassislarni o`qitish uchun innovatsion ta`lim va o`quv muhitini yaratadi.'%}
+                        </div>
+                      </div><br>
+{#                    <a href="#" class="filled-button">Batafsil</a><br><br>#}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+        </div>
+      </div>
+    </div>
+
+    <div class="callback-form" id="contactus">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+               <h2>{% trans 'Mavzu yuzasidan'%}   <em>{% trans 'fikringizni qoldiring'%}</em></h2>
+              <span>{% trans 'Qiziqtirgan savollaringizni qoldiring biz sizga tez orada javob beramiz'%}</span>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="contact-form">
+              <form id="contact" action="" method="post">
+                <div class="row">
+                  <div class="col-lg-4 col-md-12 col-sm-12">
+                    <fieldset>
+                      <input name="name" type="text" class="form-control" id="name" placeholder="{% trans 'Full Name'%}" required="">
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-4 col-md-12 col-sm-12">
+                    <fieldset>
+                      <input name="email" type="text" class="form-control" id="email" pattern="[^ @]*@[^ @]*" placeholder="{% trans 'E-Mail Address'%}" required="">
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-4 col-md-12 col-sm-12">
+                    <fieldset>
+                      <input name="subject" type="text" class="form-control" id="subject" placeholder="{% trans 'Subject'%}" required="">
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <textarea name="message" rows="6" class="form-control" id="message" placeholder="{% trans 'Your Message'%}" required=""></textarea>
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <button type="submit" id="form-submit" class="border-button">{% trans 'Xabar yuborish'%}</button>
+                    </fieldset>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+{#    <header class="masthead">#}
+{#        <div class="overlay"></div>#}
+{#        <div class="container">#}
+{#            <div class="row">#}
+{#                <div class=" col-md-8 col-md-10 mx-auto">#}
+{#                    <div class="site-heading">#}
+{#                        <h3 class=" site-heading my-4 mt-3 text-white"> Welcome to my awesome Blog </h3>#}
+{#                        <p class="text-light">We Love Django As much as you do &nbsp#}
+{#                        </p>#}
+{#                    </div>#}
+{#                </div>#}
+{#            </div>#}
+{#        </div>#}
+{#    </div>#}
+{#    </header>#}
+{##}
+{#    <div class="container">#}
+{#        <div class="row">#}
+{##}
+{#            <!-- Blog Entries Column -->#}
+{#            <div class="col-md-8 mt-3 left">#}
+{#                {% for post in post_list %}#}
+{#                    <div class="card mb-4">#}
+{#                        <div class="card-body">#}
+{#                            <h2 class="card-title">{{ post.title }}</h2>#}
+{#                            <p class="card-text text-muted h6">{{ post.author }} | {{ post.created_on}}  </p>#}
+{##}
+{#                            <p class="card-text">{{post.content|safe|truncatewords:55 }}</p>#}
+{#                            <a href="{% url 'post_detail' post.slug  %}" class="btn btn-primary">Read More &rarr;</a>#}
+{#                        </div>#}
+{##}
+{#                    </div>#}
+{#                {% endfor %}#}
+{##}
+{#            </div>#}
+{#            {% block sidebar %}#}
+{#                {% include 'sidebar.html' %}#}
+{#            {% endblock sidebar %}#}
+{#        </div>#}
+{#    </div>#}
+{#    {% if is_paginated %}#}
+{#        <nav aria-label="Page navigation conatiner"></nav>#}
+{#        <ul class="pagination justify-content-center">#}
+{#            {% if page_obj.has_previous %}#}
+{#                <li><a href="?page={{ page_obj.previous_page_number }}" class="page-link">&laquo; PREV </a></li>#}
+{#            {% endif %}#}
+{#            {% if page_obj.has_next %}#}
+{#                <li><a href="?page={{ page_obj.next_page_number }}" class="page-link"> NEXT &raquo;</a></li>#}
+{##}
+{#            {% endif %}#}
+{#        </ul>#}
+{#        </nav>#}
+{#        </div>#}
+{#    {% endif %}#}
+{%endblock%}

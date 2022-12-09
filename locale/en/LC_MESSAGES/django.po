@@ -1,0 +1,373 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-02 06:13+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\asstruz\settings.py:119
+msgid "Uzb"
+msgstr "Uzb"
+
+#: .\asstruz\settings.py:120
+msgid "Eng"
+msgstr "Eng"
+
+#: .\asstruz\settings.py:121
+msgid "Rus"
+msgstr "Rus"
+
+#: .\blog\models.py:17
+msgid "title"
+msgstr "Title"
+
+#: .\blog\models.py:18
+msgid "slug"
+msgstr "slug"
+
+#: .\blog\models.py:24
+msgid "content"
+msgstr "content"
+
+#: .\templates\post\base.html:17
+msgid "SPACECOM LOYIHASINI O`ZBEKISTONDAGI HAMKORLARI"
+msgstr "PARTNERS OF THE SPACECOM PROJECT IN UZBEKISTAN"
+
+#: .\templates\post\base.html:54
+msgid "Dush-Shan"
+msgstr "Mon-Sat"
+
+#: .\templates\post\base.html:80 .\templates\post\base_post.html:79
+msgid "Bosh sahifa"
+msgstr "Home page"
+
+#: .\templates\post\base.html:85 .\templates\post\base_post.html:84
+#: .\templates\post\index.html:45
+msgid "Yangiliklar"
+msgstr "News project"
+
+#: .\templates\post\base.html:88 .\templates\post\base.html:347
+#: .\templates\post\base_post.html:87 .\templates\post\base_post.html:381
+msgid "Biz haqimizda"
+msgstr "About Us"
+
+#: .\templates\post\base.html:94 .\templates\post\base_post.html:90
+#: .\templates\post\index.html:75
+msgid "Bog`lanish"
+msgstr "Contact"
+
+#: .\templates\post\base.html:324 .\templates\post\base_post.html:358
+msgid ""
+"Ushbu loyiha Yevropa Komissiyasi ko`magida moliyalashtirildi. Bu veb-sayt "
+"faqat mualliflarning fikrlarini aks ettiradi va Komissiya undagi "
+"ma`lumotlardan foydalanish uchun javobgarlikni o`z zimmasiga olmaydi."
+msgstr ""
+"This project was financed with the support of the European Commission. This "
+"website reflects only the opinions of the authors and the Commission in "
+"itdoes not assume responsibility for the use of information."
+
+#: .\templates\post\base.html:333 .\templates\post\base_post.html:367
+msgid "Foydali havolalar"
+msgstr "Helpful Links"
+
+#: .\templates\post\base.html:335 .\templates\post\base_post.html:369
+msgid "Loyiha hujjatlari"
+msgstr "Project documents"
+
+#: .\templates\post\base.html:336 .\templates\post\base_post.html:370
+msgid "Loyiha boshqaruvi"
+msgstr "Project management"
+
+#: .\templates\post\base.html:345
+msgid "Sahifalar"
+msgstr "Extra Pages"
+
+#: .\templates\post\base.html:348 .\templates\post\base_post.html:382
+msgid "Ish faoliyatimiz"
+msgstr "Our work"
+
+#: .\templates\post\base.html:349 .\templates\post\base_post.html:383
+msgid "Qo`lab-quvvatlash"
+msgstr "Support"
+
+#: .\templates\post\base.html:350 .\templates\post\base_post.html:384
+msgid "Biz bilan aloqa"
+msgstr "Contact us"
+
+#: .\templates\post\base.html:351 .\templates\post\base_post.html:385
+msgid "Maxfiylik siyosati"
+msgstr "Privacy Policy"
+
+#: .\templates\post\base.html:355 .\templates\post\base_post.html:389
+msgid "Tezkor bog`lanish"
+msgstr "Instant contact"
+
+#: .\templates\post\base.html:361 .\templates\post\base_post.html:395
+#: .\templates\post\index.html:220
+msgid "Full Name"
+msgstr "Full Name"
+
+#: .\templates\post\base.html:366 .\templates\post\base_post.html:400
+#: .\templates\post\index.html:225
+msgid "E-Mail Address"
+msgstr "E-Mail Address"
+
+#: .\templates\post\base.html:371 .\templates\post\base_post.html:405
+#: .\templates\post\index.html:235
+msgid "Your Message"
+msgstr "Your Message"
+
+#: .\templates\post\base.html:376 .\templates\post\base_post.html:410
+msgid "Xabar jo`natish"
+msgstr "Send a message"
+
+#: .\templates\post\index.html:16
+msgid "Erasmus+ SPACECOM loyihasi"
+msgstr "Erasmus+ SPACECOM  project"
+
+#: .\templates\post\index.html:17
+msgid ""
+"\"Suni`y yo`ldosh texnologiyasi, kosmik texnologiyalar va aloqa tizimlari "
+"bo`yicha\""
+msgstr ""
+"\"Satellite technology, space technologies and communication systems\"within "
+"the framework "
+
+#: .\templates\post\index.html:17
+msgid "magistrlik dasturi doirasida"
+msgstr "of the master's program"
+
+#: .\templates\post\index.html:18
+msgid ""
+"\"Metrologiya texnik jihatdan tartibga solish standartlashtirish va "
+"sertifikatlashtirish\""
+msgstr ""
+"\"Metrology is technically regulation, standardization and certification\""
+#: .\templates\post\index.html:18
+msgid "kafedrasida olib borilayotgan ishlar"
+msgstr "works carried out in the department"
+
+#: .\templates\post\index.html:29
+msgid "ERASMUS+ OLIY TA`LIM SOHASIDA"
+msgstr "ERASMUS+ INCREASE OF COMPETENCE "
+
+#: .\templates\post\index.html:29
+msgid "SALOHIYATNI OSHIRISH"
+msgstr "IN THE FIELD OF HIGHER EDUCATION"
+
+#: .\templates\post\index.html:30
+msgid ""
+"Kosmik tizimlar va aloqa texnologiyalari sohasidagi yangi o`quv dasturi "
+"SPACE.COM-609715-EPP-1-2019-1-UZ-EPPKA2-JP."
+msgstr ""
+"New curriculum in the field of space systems and communication technologies"
+"SPACE.COM-609715-EPP-1-2019-1-UZ-EPPKA2-JP."
+
+#: .\templates\post\index.html:41
+msgid "MAVJUD MAGISTRLIK    PROGRAMMASI"
+msgstr "MASTER'S PROGRAM AVAILABLE"
+
+#: .\templates\post\index.html:43
+msgid ""
+"Hozirgi kunda Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari "
+"universitetida Sun`iy yo`ldoshli aloqa tizimlari magistraturasiga va Mirzo "
+"Ulug’bek nomidagi Toshkent davlat texnika universitetining  Avia-kosmik "
+"vositalar bilan tabiiy resurslarni tadqiq qilish  magistraturasiga hujjat "
+"topshirish imkoniyati mavjud"
+msgstr ""
+"Currently at the Tashkent University of Information Technologies named after Muhammad al-Khorazmi"
+"Master's degree in satellite communication systems and  "
+"There is an opportunity to apply for a master's degree in natura "
+"resources research with aerospace tools  "
+"Tashkent State Technical University named after Islam Karimov"
+
+#: .\templates\post\index.html:54
+msgid ""
+"KOSMIK TIZIMLAR VA ALOQA MUHANDISLIGI BO`YICHA  &amp; YANGI O`QUV DASTURI"
+msgstr ""
+"NEW STUDY PROGRAM ON SPACE SYSTEMS AND COMMUNICATION ENGINEERING"
+
+#: .\templates\post\index.html:55
+msgid ""
+"SPACE.COM - Yevropa Ittifoqi (YI) oliy ta`lim sohasida salohiyatni oshirish "
+"maqsadida 2019-yilda ishga tushirilgan, Erasmus+ bilan birgalikda "
+"moliyalashtiriladigan 3 yillik davlatlararo qoshma loyiha."
+msgstr ""
+"SPACE.COM - launched in 2019 to increase capacity in the field of higher education in the European Union (EU) "
+"Co-financed with Erasmus+ "
+"moliyalashtiriladigan 3 yillik davlatlararo qoshma loyiha."
+
+#: .\templates\post\index.html:56 .\templates\post\index.html:99
+msgid "Batafsil"
+msgstr "Read more"
+
+#: .\templates\post\index.html:71
+msgid "Loyiha doirasida takliflaringiz bormi ?"
+msgstr "Do you have any suggestions for the project ?"
+
+#: .\templates\post\index.html:72
+msgid "Unda bizga aloqaga chiqing. Sizning fikringiz biz uchun muhim."
+msgstr "Then contact us. Your opinion is important to us."
+
+#: .\templates\post\index.html:86
+msgid "So`ngi yangiliklar va "
+msgstr "Latest news and "
+
+#: .\templates\post\index.html:86
+msgid "maqolalar"
+msgstr "articles"
+
+#: .\templates\post\index.html:117
+msgid "Ushbu loyiha Yevropa Komissiyasi ko`magida moliyalashtirildi."
+msgstr "This project was financed with the support of the European Commission."
+
+#: .\templates\post\index.html:118
+msgid "Loyihaning kutilayotgan asosiy  "
+msgstr "The expected main of the project"
+
+#: .\templates\post\index.html:118
+msgid "natijalari"
+msgstr " results"
+
+#: .\templates\post\index.html:121
+msgid ""
+"Kosmik muhandislik va texnologiya bo`yicha magistrlik dasturini ochish/"
+"yangilash;"
+msgstr ""
+"Opening and updating the master's program in space engineering and "
+"technology"
+
+#: .\templates\post\index.html:122
+msgid ""
+"mavjudni modernizatsiya qilish va kosmik va kommunikatsiya injeneriyasi "
+"bilan bog`liq yangi kurslarni ishlab chiqish;"
+msgstr ""
+"development of new courses related to space and communication engineering"
+"and modernization of existing"
+
+#: .\templates\post\index.html:123
+msgid ""
+"kosmik injeneriya va texnologiya bo`yicha yangi o`quv-ilmiy tadqiqot "
+"laboratoriyasini tashkil etish;"
+msgstr ""
+"new educational and scientific research on space engineering and technology"
+"organization of the laboratory;"
+
+#: .\templates\post\index.html:124
+msgid "hamkor universitetlar kadrlarini qayta tayyorlash;"
+msgstr "retraining of personnel of partner universities;"
+
+#: .\templates\post\index.html:125
+msgid "yangi qo`llanma va o`quv-uslubiy qo`llanmalar ishlab chiqish."
+msgstr "development of new manuals and teaching-methodical manuals"
+
+#: .\templates\post\index.html:136
+msgid "Qatnashchilar soni"
+msgstr "Number of participants"
+
+#: .\templates\post\index.html:142
+msgid "Qoyilmaqom izohlar"
+msgstr "Nice comments"
+
+#: .\templates\post\index.html:148
+msgid "Amalga oshirilgan ishlar"
+msgstr "Works carried out in the department"
+
+#: .\templates\post\index.html:154
+msgid "Qo`lga kiritilgan yutuqlar"
+msgstr "Achievements"
+
+#: .\templates\post\index.html:177
+msgid "KOSMIK TIZIMLAR VA ALOQA MUHANDISLIGI BO`YICHA YANGI O`QUV DASTURI"
+msgstr "NEW CURRICULUM FOR SPACE SYSTEMS AND COMMUNICATION ENGINEERING"
+
+#: .\templates\post\index.html:179
+msgid ""
+"SPACE.COM - Yevropa Ittifoqi (YI) oliy ta`lim sohasida salohiyatni oshirish "
+"maqsadida 2019-yilda ishga tushirilgan, Erasmus+ tbilan birgalikda "
+"moliyalashtiriladigan 3 yillik davlatlararo qoshma loyiha."
+msgstr ""
+"SPACE.COM is a 3-year joint international project launched in 2019 "
+"to increase capacity in the field of higher education of the European "
+"Union (EU), co-financed by Erasmus+."
+
+#: .\templates\post\index.html:184
+msgid "BIZNING MAQSAD"
+msgstr "OUR OBJECTIVE"
+
+#: .\templates\post\index.html:185
+msgid ""
+"O`zbekiston kosmik tizimlari muhandisligi barqarorligini ta`minlash uchun "
+"talabalarga yo`naltirilgan \"SPACE.COM\" yangi magistratura dasturini ishlab "
+"chiqish, joriy etish va akkreditatsiyasini qo1llab-quvvatlash."
+msgstr ""
+"To support the development, implementation and accreditation of "
+"the new student-oriented graduate program \"SPACE.COM\" to "
+"ensure the stability of Uzbekistan's space systems engineering."
+
+#: .\templates\post\index.html:187
+msgid "BIZ KELAJAKNI QURAMIZ"
+msgstr "WE BUILD THE FUTURE"
+
+#: .\templates\post\index.html:188
+msgid ""
+"Loyiha Yevropa Ittifoqining eng yaxshi amaliyoti va Boloniya jarayoniga "
+"muvofiq, mehnat bozoriga mos yuqori malakali mutaxassislarni o`qitish uchun "
+"innovatsion ta`lim va o`quv muhitini yaratadi."
+msgstr ""
+"The project will create an innovative educational and training environment "
+"for the training of highly qualified specialists suitable for the labor market,"
+ "in accordance with the best practices of the European Union and the Bologna process."
+
+#: .\templates\post\index.html:210
+msgid "Mavzu yuzasidan"
+msgstr "On the topic"
+
+#: .\templates\post\index.html:210
+msgid "fikringizni qoldiring"
+msgstr "leave your opinion"
+
+#: .\templates\post\index.html:211
+msgid "Qiziqtirgan savollaringizni qoldiring biz sizga tez orada javob beramiz"
+msgstr "Leave your questions and we will answer you soon"
+
+#: .\templates\post\index.html:230
+msgid "Subject"
+msgstr "Theme"
+
+#: .\templates\post\index.html:240
+msgid "Xabar yuborish"
+msgstr "Send  message"
+
+#: .\templates\post\post.html:12
+msgid "So`ngi yangiliklar va  maqolalar"
+msgstr "Latest news and articles"
+
+#: .\templates\post\post_detail.html:31
+msgid "ta izoh qoldirilgan"
+msgstr "comments left"
+
+#: .\templates\post\post_detail.html:33
+msgid "Izoh qoldirilmagan"
+msgstr "No comment"
+
+#: .\templates\post\post_detail.html:59
+msgid "Izohingiz tekshirilib tasdiqlanishi kutilmoqda"
+msgstr "Your comment is awaiting moderation"
+
+#: .\templates\post\post_detail.html:66
+msgid "Yuborish"
+msgstr "Send"

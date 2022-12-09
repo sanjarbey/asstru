@@ -1,0 +1,52 @@
+{% extends 'post/base_post.html' %}
+{% load i18n static %}
+{% block content %}
+    {% load static %}
+{% load crispy_forms_tags %}
+
+    <div class="services" id="news">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+                <h2><a href="{% url 'posts' %}" style="color: black;">{% trans 'So`ngi yangiliklar va  maqolalar' %} </a></h2>
+                <span></span>
+            </div>
+          </div>
+            {% for post in posts %}
+                <div class="col-md-4">
+                    <div class="service-item">
+                        <img src="/media/{{ post.image }}" alt="{{ post.image }}">
+                            <div class="down-content">
+                            <h4>{{ post.title}}</h4>
+                            <p>{{ post.content|safe|truncatewords:55 }}</p>
+                          <a href="{% url 'post_detail' post.slug %}" class="filled-button">{% trans 'Batafsil'%}</a>
+                        </div>
+                    </div>
+               </div>
+
+                {% endfor %}
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+{#    {% if is_paginated %}#}
+{#        <nav aria-label="Page navigation conatiner"></nav>#}
+{#        <ul class="pagination justify-content-center">#}
+{#            {% if page_obj.has_previous %}#}
+{#                <li><a href="?page={{ page_obj.previous_page_number }}" class="page-link">&laquo; PREV </a></li>#}
+{#            {% endif %}#}
+{#            {% if page_obj.has_next %}#}
+{#                <li><a href="?page={{ page_obj.next_page_number }}" class="page-link"> NEXT &raquo;</a></li>#}
+{##}
+{#            {% endif %}#}
+{#        </ul>#}
+{#        </nav>#}
+{#        </div>#}
+{#    {% endif %}#}
+{% endblock content %}

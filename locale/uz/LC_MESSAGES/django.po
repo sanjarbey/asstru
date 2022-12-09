@@ -1,0 +1,159 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-01 07:22+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: .\asstruz\settings.py:119
+msgid "Uzb"
+msgstr "O'zb"
+
+#: .\asstruz\settings.py:120
+msgid "Eng"
+msgstr "Eng"
+
+#: .\asstruz\settings.py:121
+msgid "Rus"
+msgstr "Rus"
+
+#: .\blog\models.py:17
+msgid "title"
+msgstr "Sarlavha"
+
+#: .\blog\models.py:18
+msgid "slug"
+msgstr "url"
+
+#: .\blog\models.py:24
+msgid "content"
+msgstr "Matn"
+
+#: .\blog\templates\post\base.html:17
+msgid "SPACECOM LOYIHASINI O`ZBEKISTONDAGI HAMKORLARI"
+msgstr "SPACECOM LOYIHASINI O`ZBEKISTONDAGI HAMKORLARI"
+
+#: .\blog\templates\post\base.html:54
+msgid "Dush-Shan"
+msgstr "Dush-Shan"
+
+#: .\blog\templates\post\base.html:80
+msgid "Bosh sahifa"
+msgstr "Bosh sahifa"
+
+#: .\blog\templates\post\base.html:85
+msgid "Yangiliklar"
+msgstr "Yangiliklar"
+
+#: .\blog\templates\post\base.html:88 .\blog\templates\post\base.html:307
+msgid "Biz haqimizda"
+msgstr "Biz haqimizda"
+
+#: .\blog\templates\post\base.html:94
+msgid "Bog`lanish"
+msgstr "Bog`lanish"
+
+#: .\blog\templates\post\base.html:284
+msgid ""
+"Ushbu loyiha Yevropa Komissiyasi ko`magida moliyalashtirildi. Bu veb-sayt "
+"faqat mualliflarning fikrlarini aks ettiradi va Komissiya undagi "
+"ma`lumotlardan foydalanish uchun javobgarlikni o`z zimmasiga olmaydi."
+msgstr ""
+"Ushbu loyiha Yevropa Komissiyasi ko`magida moliyalashtirildi. Bu veb-sayt "
+"faqat mualliflarning fikrlarini aks ettiradi va Komissiya undagi "
+"ma`lumotlardan foydalanish uchun javobgarlikni o`z zimmasiga olmaydi."
+
+#: .\blog\templates\post\base.html:293
+msgid "Foydali havolalar"
+msgstr "Foydali havolalar"
+
+#: .\blog\templates\post\base.html:295
+msgid "Loyiha hujjatlari"
+msgstr "Loyiha hujjatlari"
+
+#: .\blog\templates\post\base.html:296
+msgid "Loyiha boshqaruvi"
+msgstr "Loyiha boshqaruvi"
+
+#: .\blog\templates\post\base.html:308
+#, fuzzy
+#| msgid "Ish faoliyamitiz"
+msgid "Ish faoliyatimiz"
+msgstr "Ish faoliyamitiz"
+
+#: .\blog\templates\post\base.html:309
+msgid "Qo`lab-quvvatlash"
+msgstr "Qo`lab-quvvatlash"
+
+#: .\blog\templates\post\base.html:310
+msgid "Biz bilan aloqa"
+msgstr "Biz bilan aloqa"
+
+#: .\blog\templates\post\base.html:311
+msgid "Maxfiylik siyosati"
+msgstr "Maxfiylik siyosati"
+
+#: .\blog\templates\post\base.html:315
+msgid "Tezkor bog`lanish"
+msgstr "Tezkor bog`lanish"
+
+#: .\blog\templates\post\base.html:321
+msgid "Full Name"
+msgstr "To'liq ismi sharif"
+
+#: .\blog\templates\post\base.html:326
+msgid "E-Mail Address"
+msgstr "E-pochta manzili"
+
+#: .\blog\templates\post\base.html:331
+msgid "Your Message"
+msgstr "Sizning xabaringiz"
+
+#: .\blog\templates\post\base.html:336
+msgid "Xabar jo`natish"
+msgstr "Xabar jo`natish"
+
+#: .\templates\index.html:16
+msgid "Erasmus+ SPACECOM loyihasi "
+msgstr ""
+
+#: .\templates\index.html:17
+msgid ""
+"\"Sun`iy yo`ldosh texnologiyasi, kosmik texnologiyalar va aloqa tizimlari "
+"bo`yicha\"</strong> magistrlik dasturi doirasida"
+msgstr ""
+
+#: .\templates\index.html:18
+msgid ""
+"\"Metrologiya texnik jihatdan tartibga solish standartlashtirish va "
+"sertifikatlashtirish\""
+msgstr ""
+
+#: .\templates\index.html:18
+msgid "kafedrasida olib borilayotgan ishlar"
+msgstr ""
+
+#~ msgid "Natijalar"
+#~ msgstr "Biz haqimizda"
+
+#~ msgid "Go somewhere"
+#~ msgstr "Batafsil"
+
+#~ msgid "Template title"
+#~ msgstr "Shablon sarlavhasi"
+
+#~ msgid "Template text"
+#~ msgstr "Shablon matn"

@@ -1,0 +1,74 @@
+{% extends 'post/base_post.html' %}
+{% load i18n static %}
+{% block content %}
+    {% load static %}
+{% load crispy_forms_tags %}
+
+    <div class="services" id="news">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12  mb-4  mt-3 ">
+            <div class="text-justify ">
+              <h2 class="text-center">{{ post.title }}</h2>
+                <hr>
+
+              <span></span>
+                <p class="text-center">  <img src="/media/{{ post.image }}"></p>
+                <hr>
+                <p class=" text-right"><b>{{ post.author }} || <em>{{ post.created_on.date|date:"d.m.Y" }}</em></b></p>
+                 <p style="font-size: 21px !important;" class=" text-justify" >{{ post.content | safe }}</p>
+            </div>
+          </div>
+        </div>
+
+
+            <div class="col-md-12 card mb-4  mt-3 ">
+                <div class="card-body">
+                    <!-- comments -->
+                    {% with comments.count as total_comments %}
+                        <h3>
+                            {%if total_comments %}
+                                {{ total_comments }} {% trans 'ta izoh qoldirilgan' %}
+                            {% else %}
+                                {% trans 'Izoh qoldirilmagan' %}
+                            {% endif %}
+
+                        </h3>
+
+                        <p>
+                    {% endwith %} {% for comment in comments %}
+                        </p>
+
+                        <div class="comments" style="padding: 10px;">
+                            <p class="font-weight-bold">
+                                {{ comment.name }}
+                                <span class=" text-muted font-weight-normal">
+                                    {{ comment.created_on }}
+                                </span>
+                            </p>
+                            {{ comment.body | linebreaks }}
+                        </div>
+
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="col-md-12 card mb-4  mt-3 ">
+                <div class="card-body">
+                    {% if new_comment %}
+                        <div class="alert alert-success" role="alert">
+                            {% trans 'Izohingiz tekshirilib tasdiqlanishi kutilmoqda' %}
+                        </div>
+                    {% else %}
+                        <h4>Izohlar qoldiring</h4>
+                        <form method="post" style="margin-top: 1.3em;">
+                            {{ comment_form | crispy }}
+                            {% csrf_token %}
+                            <button type="submit" class="btn btn-primary  btn-lg">{% trans 'Yuborish'%}'</button>
+                        </form>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock content %}
