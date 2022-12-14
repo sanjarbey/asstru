@@ -1,0 +1,2 @@
+# asstru
+Mertologiya uchun sayt
